@@ -1,0 +1,25 @@
+
+<div>
+<div class="contenitoreCard" *ngFor="let avenger of avengers let i = index;">
+<div class="card" style="width: 25rem; height: 25rem">
+  <div class="card-body">
+    <img class="img" src="{{avenger.src}}">
+    <h5 class="card-title">{{avenger?.name}}</h5>
+    <h5 class="card-title">{{avenger?.ability}}</h5>
+    <button class="fa fa-caret-square-o-up text-black" (click)="openDialog(dialog, avenger.id)"></button>
+    <button class="fa fa-trash delete" (click)="deleteAvengers(avenger.id)"></button>
+  </div>
+</div>
+</div>
+
+  <ng-template #dialog>
+    <h1 mat-dialog-title>Dettagli Personaggi</h1>
+    <div mat-dialog-content *ngFor="let avenger of avengers let i = index;">
+      <h5 class="card-title">{{avenger?.name}}</h5>
+      <p class="card-text">{{avenger?.date}}</p>
+      <p class="card-text">{{avenger?.potenza}}</p>
+      <br>
+    </div>
+  </ng-template>
+
+</div>

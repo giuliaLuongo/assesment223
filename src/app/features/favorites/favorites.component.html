@@ -1,0 +1,28 @@
+
+<div>
+  <table class="table">
+    <thead>
+    <tr class="tableNomi">
+      <th class="text-black">Name</th>
+      <th class="text-black">Ability</th>
+      <th class="text-black">Potenza</th>
+      <th class="text-black">Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let avenger of avengers; let i = index">
+      <td class="rowTable">{{avenger?.name}}</td>
+      <td>{{avenger?.ability}}</td>
+      <td>{{avenger?.potenza}}</td>
+      <td>{{avenger?.date}}</td>
+      <button class="fa fa-trash" (click)="deleteFavorites(avenger.id)"></button>
+      <button class="fa fa-star" (click)="postFavorites(avenger,avenger.id)"></button>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+

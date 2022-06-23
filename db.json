@@ -1,0 +1,172 @@
+{
+  "Avengers" : [
+    {
+      "id" : 1,
+      "src": "https://i.ebayimg.com/images/g/6dwAAOSwUlBhbwKC/s-l640.jpg",
+      "name": "Iron-Man",
+      "ability": "Il leader degli Avengers, è uno scienziato miliardario che possiede un'armatura high-tech, che utilizza per combattere il male.",
+      "date": "marzo 1963",
+      "potenza": 15,
+      "cattivo": "no",
+      "vivo": "no",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },
+    {
+      "id" : 2,
+      "src": "https://www.ibs.it/images/0889698451376_0_536_0_75.jpg",
+      "name": "Capitan America",
+      "ability": "Un super soldato che durante la seconda guerra mondiale combatte contro il perfido Teschio Rosso",
+      "date": "marzo 1941",
+      "potenza": 12,
+      "cattivo": "no",
+      "vivo": "no",
+      "GeneticamenteModificato": "si",
+      "Edizone Limitata" : "no"
+
+    },{
+      "id" : 3,
+      "src": "https://i0.wp.com/www.nerdpop.it/wp-content/uploads/2021/04/img_2030.png?fit=2048%2C2048&ssl=1",
+      "name": "Bucky",
+      "ability": "Braccio destro e spalla di Capitan America",
+      "date": "marzo 1941",
+      "potenza": 10,
+      "cattivo": "si/no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 4,
+      "src": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13207717-9384881167885331.jpg",
+      "name": "Thor",
+      "ability": "Dio del Tuono e figlio di Odino.",
+      "date": "agosto 1962",
+      "potenza": 13,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "no"
+    },{
+      "id" : 5,
+      "src": "https://m.media-amazon.com/images/I/61zbaBT5JxL._AC_SL1300_.jpg",
+      "name": "Hulk",
+      "ability": "Un uomo che dopo aver sperimentato su di sé il suo siero del super soldato è diventato una potente bestia di colore verde.",
+      "date": "maggio 1962",
+      "potenza": 18,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "si",
+      "Edizone Limitata" : "no"
+    },{
+      "id" : 6,
+      "src": "https://static-it.gamestop.it/images/products/305136/3max.jpg",
+      "name": "Doctor Strange",
+      "ability": "Il leader degli Avengers, è uno scienziato miliardario che possiede un'armatura high-tech, che utilizza per combattere il male.",
+      "date": "marzo 1963",
+      "potenza": 15,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 7,
+      "name": "Hawkeye",
+      "src": "https://static-it.gamestop.it/images/products/304719/3max.jpg",
+      "ability": "Arciere in costume redentosi da un passato criminoso e dotato di un vasto arsenale di frecce della più disparata foggia e dai molteplici utilizzi.",
+      "date": "settembre 1964",
+      "potenza": 10,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "no"
+    },{
+      "id" : 8,
+      "src": "assets/imgAss/12275447-1134737770629812.jpg",
+      "name": "Black Widow",
+      "ability": "Assassina biopotenziata arruolata nel servizio di sicurezza sovietico e punta di diamante dello spionaggio del suo paese durante la guerra fredda.",
+      "date": "febbraio 1963",
+      "potenza": 11,
+      "cattivo": "no",
+      "vivo": "no",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 9,
+      "src": "https://cdn.idealo.com/folder/Product/6567/5/6567515/s10_produktbild_gross_1/funko-pop-marvel-avengers-endgame-ant-man.jpg",
+      "name": "Ant-Man",
+      "ability": "Il dottor Henry Pym è un biochimico che, dopo aver inventato un siero miniaturizzante in grado di ridurlo alle dimensioni di una formica.",
+      "date": "novembre 1962",
+      "potenza": 17,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 10,
+      "src": "https://www.tradeinn.com/f/13888/138888367/funko-pop-marvel-what-if-zombie-spiderman.jpg",
+      "name": "Spider-Man",
+      "ability": "Un ragno viene accidentalmente investito dalle radiazioni e, fortemente traumatizzato e prossimo alla morte, gli cade sulla mano mordendolo.",
+      "date": "marzo 1963",
+      "potenza": 9,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 11,
+      "src": "https://www.nerdyourself.it/4867431-home_default/avengers-infinity-war-funko-pop-thanos-308-25-cm-special-edition.jpg",
+      "name": "Thanos",
+      "ability": "Thanos è nato deforme a causa di una malattia nota come Sindrome Deviante, che gli ha conferito una pelle spessa e robusta di colore grigio-violaceo.",
+      "date": "marzo 1963",
+      "potenza": 22,
+      "cattivo": "si",
+      "vivo": "no",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "no"
+    },{
+      "id" : 12,
+      "src": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13151803-3384901128064343.jpg",
+      "name": "Loki",
+      "ability": "Dio della grande astuzia e degli inganni ma anche della distruzione, ingegnoso inventore di tecniche, paragonato ad altre divinità ambigue aventi il ruolo del trickster.",
+      "date": "marzo 1963",
+      "potenza": 18,
+      "cattivo": "si",
+      "vivo": "no",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 13,
+      "src": "https://www.ibs.it/images/0889698407052_0_536_0_75.jpg",
+      "name": "Venom",
+      "ability": "Rivale/alleato ed ex nemico giurato dell'Uomo Ragno.",
+      "date": "marzo 1963",
+      "potenza": 15,
+      "cattivo": "si",
+      "vivo": "si",
+      "GeneticamenteModificato": "si",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 14,
+      "src": "https://www.tradeinn.com/f/13813/138135766/funko-pop-marvel-wandavision-the-vision.jpg",
+      "name": "Vision",
+      "ability": "Creato in un laboratorio segreto di Brooklyn, New York, dall'intelligenza artificiale Ultron con l'assistenza, sotto coercizione, del professor Phineas Horton, l'androide sintezoide è progettato sulla base tecnologica della Torcia Umana degli anni quaranta.",
+      "date": "marzo 1963",
+      "potenza": 21,
+      "cattivo": "no",
+      "vivo": "no",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    },{
+      "id" : 15,
+      "src": "https://cdn.idealo.com/folder/Product/201850/3/201850311/s10_produktbild_gross/funko-pop-marvel-daredevil-action-pose.jpg",
+      "name": "DareDevil",
+      "ability": "Devil è l'alter ego di Matt Murdock, studente di legge divenuto cieco a seguito di un incidente per salvare un anziano che stava per essere investito da un camion che trasportava delle scorie radioattive.",
+      "date": "marzo 1963",
+      "potenza": 10,
+      "cattivo": "no",
+      "vivo": "si",
+      "GeneticamenteModificato": "no",
+      "Edizone Limitata" : "si"
+    }
+  ]
+}
