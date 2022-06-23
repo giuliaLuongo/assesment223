@@ -1,0 +1,23 @@
+<table class="table table-dark">
+  <thead>
+  <tr>
+    <th scope="col">HeroName</th>
+    <th scope="col">Ability</th>
+    <th scope="col">ReleaseDate</th>
+    <th scope="col">Power</th>
+    <th scope="col"></th>
+    <th scope="col"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let pop of popList">
+    <th scope="row">{{pop.heroName}}</th>
+    <td>{{pop.ability}}</td>
+    <td>{{pop.releaseDate}}</td>
+    <td>{{pop.power | powerConverter}}</td>
+    <td><button (click)="makePopFavTrue(pop.id, pop)"><i class="fa fa-star"></i></button></td>
+    <td><button (click)="deletePop(pop.id)">X</button></td>
+
+  </tr>
+  </tbody>
+</table>

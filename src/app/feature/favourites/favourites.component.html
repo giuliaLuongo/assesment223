@@ -1,0 +1,15 @@
+<div>
+  <h1>My Favourite Popz</h1>
+  <div class="row card-group">
+  <div *ngFor="let popFav of favList">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://img1.cgtrader.com/items/2450351/ffbfb131ca/large/funko-pop-base-male-3d-model-obj.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{popFav.heroName}}</h5>
+        <p class="card-text">
+          {{popFav.ability}}</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+{
+  "Pops": [
+    {
+      "id": 1,
+      "heroName": "IronMan",
+      "ability": "IsSoRich",
+      "releaseDate": "06/06/66'",
+      "power": 15,
+      "isFav": false
+    },
+    {
+      "id": 2,
+      "heroName": "Thor",
+      "ability": "GodOfThunder",
+      "releaseDate": "06/06/66'",
+      "power": 17,
+      "isFav": false
+    },
+    {
+      "id": 3,
+      "heroName": "Hulk",
+      "ability": "NuclearPower",
+      "releaseDate": "06/06/66'",
+      "power": 18,
+      "isFav": true
+    },
+    {
+      "id": 4,
+      "heroName": "Loki",
+      "ability": "SoFascinating",
+      "releaseDate": "06/06/66'",
+      "power": 12,
+      "isFav": false
+    },
+    {
+      "id": 5,
+      "heroName": "BlackWidow",
+      "ability": "SoGorgeous",
+      "releaseDate": "06/06/66'",
+      "power": 8,
+      "isFav": false
+    },
+    {
+      "id": 7,
+      "heroName": "CaptainAmerica",
+      "ability": "SoPatriot",
+      "releaseDate": "06/06/66'",
+      "power": 13,
+      "isFav": false
+    },
+    {
+      "id": 8,
+      "heroName": "DocStrange",
+      "ability": "HeCanManipulateTimeDUDE",
+      "releaseDate": "06/06/66'",
+      "power": 13,
+      "isFav": true
+    },
+    {
+      "id": 9,
+      "heroName": "SpiderMan",
+      "ability": "TheFriendlyDudeWithWebs",
+      "releaseDate": "06/06/66'",
+      "power": 11,
+      "isFav": false
+    },
+    {
+      "id": 10,
+      "heroName": "Thanos",
+      "ability": "theEvilUnbeatableGuy",
+      "releaseDate": "06/06/66'",
+      "power": 21,
+      "isFav": true
+    }
+  ]
+}
