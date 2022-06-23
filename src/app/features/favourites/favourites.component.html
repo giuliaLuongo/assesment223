@@ -1,0 +1,16 @@
+<main>
+
+  <div *ngIf="favouritePopList.length == 0" class="fav-card-container justify-content-center">
+    <div class="fav-card">
+      <h3 class="mt-5">OPS!</h3>
+      <span>No favourites here</span>
+    </div>
+  </div>
+
+  <div *ngIf="favouritePopList.length != 0" class="fav-card-container">
+  <div *ngFor="let pop of favouritePopList">
+    <app-favourites-card [pop]="pop"></app-favourites-card>
+  </div>
+  </div>
+
+</main>

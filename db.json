@@ -1,0 +1,123 @@
+{
+  "pop": [
+    {
+      "id": 1,
+      "favourite": false,
+      "img": "/assets/strange.jpg",
+      "heroName": "Doctor Strange",
+      "skills": "Magic",
+      "releaseDate": "2018-10-11",
+      "power": 18,
+      "mainVillain": "Dormammu",
+      "realName": "Steven Strange",
+      "Base": "Sanctum Sanctorum"
+    },
+    {
+      "id": 2,
+      "favourite": false,
+      "img": "/assets/thor.jpg",
+      "heroName": "Thor",
+      "skills": "Master of thunder",
+      "releaseDate": "2014-10-11",
+      "power": 12,
+      "mainVillain": "Loki",
+      "origin": "Divinity",
+      "Base": "Asgard"
+    },
+    {
+      "id": 3,
+      "favourite": false,
+      "img": "/assets/widow.jpg",
+      "heroName": "Black Widow",
+      "skills": "Martial arts and espionage",
+      "releaseDate": "2016-10-11",
+      "power": 8,
+      "realName": "Natasha Romanoff",
+      "origin": "Human",
+      "Base": "Avengers Base"
+    },
+    {
+      "id": 4,
+      "favourite": false,
+      "img": "/assets/scarlet.jpg",
+      "heroName": "Scarlet Witch",
+      "skills": "Magic",
+      "releaseDate": "2017-10-11",
+      "power": 35,
+      "mainVillain": "Agatha Harkness",
+      "realName": "Wanda Maximoff",
+      "Base": "Wundagore Mountain"
+    },
+    {
+      "id": 5,
+      "favourite": false,
+      "img": "/assets/ant.jpg",
+      "heroName": "Ant-Man",
+      "skills": "Shrink to sub-microscopic size",
+      "releaseDate": "2020-10-11",
+      "power": 9,
+      "realName": "Scott Lang",
+      "origin": "Human"
+    },
+    {
+      "id": 6,
+      "favourite": false,
+      "img": "/assets/cpmaverl.jpg",
+      "heroName": "Captain Marvel",
+      "skills": "Stamina",
+      "releaseDate": "2021-10-11",
+      "power": 35,
+      "realName": "Carol Danvers",
+      "Base": "Quincarrier"
+    },
+    {
+      "id": 7,
+      "favourite": false,
+      "img": "/assets/vision.jpg",
+      "heroName": "Vision",
+      "skills": "Density control",
+      "releaseDate": "2012-10-11",
+      "power": 31,
+      "mainVillain": "Ultron",
+      "origin": "Android",
+      "Base": "Avengers Base"
+    },
+    {
+      "id": 8,
+      "favourite": false,
+      "img": "/assets/knight.jpg",
+      "heroName": "Moon Knight",
+      "skills": "Enhanced strength",
+      "releaseDate": "2021-10-11",
+      "power": 16,
+      "mainVillain": "Arthur Harrow",
+      "realName": "Marc Spector",
+      "Base": "Spector Mansion"
+    },
+    {
+      "id": 9,
+      "favourite": false,
+      "img": "/assets/cpamerica.jpg",
+      "heroName": "Captain America",
+      "skills": "Enhanced strength",
+      "releaseDate": "2012-10-11",
+      "power": 18,
+      "mainVillain": "Red skull",
+      "realName": "Steve Rogers",
+      "origin": "Mutant"
+    },
+    {
+      "id": 10,
+      "favourite": false,
+      "img": "/assets/spider.jpg",
+      "heroName": "Spider-Man",
+      "skills": "Spider-Sense",
+      "releaseDate": "2015-10-11",
+      "power": 13,
+      "mainVillain": "Green goblin",
+      "realName": "Peter Parker",
+      "Base": "Horizon Labs"
+    }
+  ],
+  "favourites": []
+}

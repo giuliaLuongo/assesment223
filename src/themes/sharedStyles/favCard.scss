@@ -1,0 +1,48 @@
+.fav-card-container {
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.fav-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  height: 25rem;
+  width: 20rem;
+  background-color: #2d2d2d;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  box-shadow: 0px 0px 12px 3px rgb(235, 28, 42);
+  transition-duration: 1s;
+}
+
+.fav-card:hover {
+  transform: scale(110%);
+}
+
+.img-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: -1rem;
+}
+
+.fav-card img {
+  width: 8rem;
+  border-radius: .5rem;
+}
+
+.fav-card h3 {
+  color: rgb(235, 28, 42);
+  text-transform: uppercase;
+}
+
+.fav-card span {
+  color: #adadad;
+}

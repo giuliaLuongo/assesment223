@@ -1,0 +1,18 @@
+<div class="card-container">
+<div class="my-card">
+  <div class="img-container">
+    <img src="{{pop.img}}">
+  </div>
+  <div>
+    <h3>{{pop.heroName}}</h3>
+    <h5>{{pop?.realName}}</h5>
+    <p class="ability">{{pop.skills}}&nbsp;&nbsp;({{pop.power | powerPipe}})</p>
+    <p class="mt-5"><span>Release Date:</span>&nbsp;&nbsp;{{pop.releaseDate}}</p>
+  </div>
+  <div class="details-secondary">
+    <p *ngIf="pop.origin != null"><span>Origin:</span>&nbsp;&nbsp;{{pop?.origin}}</p>
+    <p *ngIf="pop.base != null"><span>Base:</span>&nbsp;&nbsp;{{pop?.base}}</p>
+    <P *ngIf="pop.mainVillain != null"><span>Main villain:</span>&nbsp;&nbsp;{{pop?.mainVillain}}</P>
+  </div>
+</div>
+</div>
