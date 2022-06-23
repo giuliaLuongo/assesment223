@@ -1,0 +1,124 @@
+{
+  "Pops": [
+    {
+      "id": 1,
+      "heroName": "Iron man",
+      "ability": "Technological advantage",
+      "releaseDate": "9/10/2004",
+      "rating": 25,
+      "isFavourite": false,
+      "price": 40,
+      "material": "colored gold",
+      "height": "15cm",
+      "editionNumber": 1
+    },
+    {
+      "id": 2,
+      "heroName": "Thor",
+      "ability": "Throws hammer",
+      "releaseDate": "11/12/2005",
+      "rating": 18,
+      "isFavourite": false,
+      "price": 20,
+      "material": "colored plastic",
+      "height": "10cm",
+      "editionNumber": 2
+    },
+    {
+      "id": 3,
+      "heroName": "Hulk",
+      "ability": "Green and muscular",
+      "releaseDate": "9/10/2007",
+      "rating": 8,
+      "isFavourite": false,
+      "price": 5,
+      "material": "colored tin",
+      "height": "5cm",
+      "editionNumber": 3
+    },
+    {
+      "id": 4,
+      "heroName": "Black panther",
+      "ability": "Technological advantage and strong",
+      "releaseDate": "3/5/2010",
+      "rating": 15,
+      "isFavourite": false,
+      "price": 25,
+      "material": "colored silver",
+      "height": "13cm",
+      "editionNumber": 1
+    },
+    {
+      "id": 5,
+      "heroName": "Captain america",
+      "ability": "Throws shield",
+      "releaseDate": "8/2/2002",
+      "rating": 2,
+      "isFavourite": false,
+      "price": 9.99,
+      "material": "colored bronze",
+      "height": "10cm",
+      "editionNumber": 1
+    },
+    {
+      "id": 6,
+      "heroName": "Spider-man",
+      "ability": "Pretty much a spider",
+      "releaseDate": "9/6/2010",
+      "rating": 17,
+      "isFavourite": false,
+      "price": 45,
+      "material": "rose gold",
+      "height": "17cm",
+      "editionNumber": 5
+    },
+    {
+      "id": 7,
+      "heroName": "Groot",
+      "ability": "Is a living tree",
+      "releaseDate": "1/4/2015",
+      "rating": 7,
+      "isFavourite": false,
+      "price": 19.99,
+      "material": "colored wood",
+      "height": "12cm",
+      "editionNumber": 7
+    },
+    {
+      "id": 8,
+      "heroName": "Loki",
+      "ability": "Thor's step brother",
+      "releaseDate": "15/7/2012",
+      "rating": 1,
+      "isFavourite": false,
+      "price": 5.5,
+      "material": "uncoloured plastic",
+      "height": "4cm",
+      "editionNumber": 8
+    },
+    {
+      "id": 9,
+      "heroName": "Deadpool",
+      "ability": "Breaks fourth wall",
+      "releaseDate": "17/4/2013",
+      "rating": 15,
+      "isFavourite": false,
+      "price": 30.5,
+      "material": "red gold",
+      "height": "14.5cm",
+      "editionNumber": 2
+    },
+    {
+      "id": 10,
+      "heroName": "Rocket racoon",
+      "ability": "It's a racoon in space!",
+      "releaseDate": "9/10/2015",
+      "rating": 11,
+      "isFavourite": false,
+      "price": 10.99,
+      "material": "colored bronze",
+      "height": "5cm",
+      "editionNumber": 1
+    }
+  ]
+}

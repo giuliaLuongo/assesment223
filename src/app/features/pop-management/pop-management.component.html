@@ -1,0 +1,26 @@
+<div class="table-container">
+  <div class="h2-container">
+    <h2>Manage your pops as you like!</h2>
+  </div>
+  <div class="div-table-container">
+    <table class="pops-table">
+      <tr class="table-titles">
+        <td>Name</td>
+        <td>Ability</td>
+        <td>Release date</td>
+        <td>Rating</td>
+      </tr>
+
+      <tr *ngFor="let pop of pops">
+        <td class="table-value">{{pop.heroName}}</td>
+        <td class="table-value">{{pop.ability}}</td>
+        <td class="table-value">{{pop.releaseDate}}</td>
+        <td class="table-value">{{pop.rating | powerRating}}</td>
+        <a class="fa fa-star" *ngIf="!pop.isFavourite" (click)="makeFavourite(pop)"></a>
+        <a class="fa fa-star fa-star-yellow" id="favourite-true" (click)="makeFavourite(pop)" *ngIf="pop.isFavourite"></a>
+        <a routerLink="/pop-details/{{pop.id}}" class="fa fa-eye"></a>
+        <a class="fa fa-trash" (click)="deletePop(pop.id)"></a>
+      </tr>
+    </table>
+  </div>
+</div>

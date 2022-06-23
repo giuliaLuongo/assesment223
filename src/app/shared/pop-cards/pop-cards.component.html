@@ -1,0 +1,12 @@
+<div class="cards-container">
+  <div class="card-container" *ngFor="let pop of pops">
+    <div class="card" *ngIf="pop.isFavourite ">
+      <p *ngIf="pop.isFavourite ">{{pop.heroName}}</p>
+      <p *ngIf="pop.isFavourite">{{pop.ability}}</p>
+      <p *ngIf="pop.isFavourite">{{pop.releaseDate}}</p>
+      <p *ngIf="pop.isFavourite">{{pop.rating | powerRating}}</p>
+    </div>
+  </div>
+</div>
+
+

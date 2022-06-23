@@ -1,0 +1,17 @@
+@import "themes/coreStyles/header";
+@import "themes/coreStyles/footer";
+@import "themes/coreStyles/home";
+@import "themes/featuresStyles/pop-management";
+@import "themes/featuresStyles/pop-details";
+@import "themes/sharedStyles/pop-cards";
+@import "font-awesome";
+@import "reset-css";
+
+*{
+  font-family: 'Marvel', sans-serif;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(73,65,109,1) 0%, rgba(23,17,47,1) 94%);
+}
