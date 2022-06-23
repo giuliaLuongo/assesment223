@@ -1,0 +1,41 @@
+.favourites{
+  background-image: url("~src/assets/img/background.jpg");
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .card{
+    transform: scale(0.9);
+    box-shadow: 0 0 8px 0px #f7f7f7;
+    transition: ease-in-out 700ms;
+    height: 25rem;
+    cursor: pointer;
+    .card-top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #292b2c ;
+    }
+    .card-bottom{
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .card:hover{
+    transition: ease-in-out 700ms;
+    transform: scale(1);
+  }
+}
+.withoutFav{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("~src/assets/img/background.jpg");
+  background-size: cover;
+  img, p{
+    box-shadow: 0 0 8px 0px #f7f7f7;
+  }
+}

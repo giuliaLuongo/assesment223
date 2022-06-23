@@ -1,0 +1,13 @@
+footer{
+  background: linear-gradient(0deg, rgba(15,15,166,1) 1%, rgba(161,12,13,1) 59%, rgba(1,1,8,1) 100%);
+  color: white;
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i:hover{
+      transform: scale(1.5);
+      transition: ease-in-out 700ms;
+    }
+  }
+}

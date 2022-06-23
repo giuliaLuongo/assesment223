@@ -1,0 +1,23 @@
+<div class="favourites" *ngIf="favouriteList.length > 0">
+    <div class="card w-25 m-4" *ngFor="let pop of favouriteList; let i = index;">
+      <img src="{{pop.img}}" class="card-img-top w-75 h-75 m-auto"/>
+
+        <div class="d-flex justify-content-between" class="card-top">
+          <h4 class="card-title mx-3 fs-5">{{pop.name}}</h4>
+          <p class="text-dark mx-3">{{pop.power | powerPipe}}</p>
+        </div>
+        <div class="card-bottom">
+          <p>Abilità : {{pop.ability}}</p>
+          <p>{{pop.release}}</p>
+        </div>
+    </div>
+  </div>
+<div *ngIf="favouriteList.length == 0">
+  <div class="withoutFav">
+    <img class="my-3" src="assets/img/no_favourites.jpg">
+    <p class="text-light bg-dark">Non hai nessuno Preferito!</p>
+    <p class="text-light bg-dark">Clicca sulla stella del Pop per aggiungerlo ai preferiti!</p>
+  </div>
+</div>
+
+
