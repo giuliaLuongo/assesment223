@@ -1,0 +1,25 @@
+<table class="table justify-content-center">
+  <thead>
+  <tr>
+    <th scope="col">img</th>
+    <th scope="col">name</th>
+    <th scope="col">skills</th>
+    <th scope="col">power</th>
+    <th scope="col">date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let pop of PopList; let index =index">
+    <td>{{pop.img}}</td>
+    <td>{{pop.name}}</td>
+    <td>{{pop.skills}}</td>
+    <td>{{pop.power}}</td>
+    <td>{{pop.date}}</td>
+    <td><a class="btn btn-warning " (click) ="addPopFavourite(pop)">Add favourites</a></td>
+    <td><a class="btn btn-warning " (click) ="deletePop(pop.id)">Delete</a></td>
+
+
+  </tr>
+  </tbody>
+</table>
+

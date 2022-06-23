@@ -1,0 +1,22 @@
+<table class="table justify-content-center">
+  <thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Price</th>
+    <th scope="col">AlcRate</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let pop of favouritePop; let index =index">
+    <td>{{pop.img}}</td>
+    <td>{{pop.id}}</td>
+    <td>{{pop.name}}</td>
+    <td>{{pop.skills}}</td>
+    <td>{{pop.power}}</td>
+    <td><i class="fa fa-trash" (click)="deleteFavourite(index)"></i>
+
+
+
+  </tr>
+  </tbody>
+</table>

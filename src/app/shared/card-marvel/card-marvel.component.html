@@ -1,0 +1,15 @@
+<div class="card-container">
+  <div class="MarvelContainer">
+  <div class="card p-2 w-50 d-flex " *ngFor="let pop of PopList; let index =index">
+    <img src="{{pop.img}}" class="card-img " alt="immagine card">
+    <div class="card-body">
+      <h5 class="card-title">{{pop.name}}</h5>
+      <p class="card-text">{{pop.skills}}</p>
+      <p class="card-text">{{pop.date}}</p>
+      <p class="card-text">{{pop.power}}</p>
+      <a class="btn btn-warning " (click) ="addPopFavourite(pop)">Add Pop</a>
+
+    </div>
+  </div>
+</div>
+</div>
