@@ -1,0 +1,116 @@
+.sub-main {
+  padding: 6rem 8rem;
+}
+.sub-card {
+  width: 18rem;
+  height: 28rem;
+  background-color: rgb(250,250,250);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.20);
+  transition-duration: .5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sub-card:hover {
+  transform: scale(105%);
+}
+
+.sub-icon {
+  color: rgb(195,10,65);
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sub-description {
+  color: rgb(100, 100, 100);
+}
+
+.sub-description-full {
+  color: rgb(100, 100, 100);
+  white-space: pre;
+  text-align: center;
+}
+
+.sub-button {
+  background-color: rgb(195,10,65);
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 50vh;
+  color: rgb(250,250,250);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.sub-icon-info {
+  color: rgb(143, 142, 142);
+  cursor: pointer;
+}
+
+.pop-img{
+  border : 2px solid black;
+  border-radius: 2rem;
+  width:13rem;
+  height: 13rem;
+}
+
+.card-details{
+  border: 2px solid white;
+  border-radius: 2rem;
+  height: 30rem;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pop-img-details{
+  border-radius: 2rem;
+  width:28rem;
+  height: 28rem;
+}
+
+.pop-name-details{
+  color: white;
+  font-size: 6rem;
+}
+
+.fa-star-o:before{
+  color: yellow;
+}
+
+.fa-star:before{
+  color: yellow;
+}
+
+.marvel-logo-details{
+  border: 2px solid white;
+  border-radius: 2rem;
+}
+
+.marvel-logo-details:hover{
+  transform: scale(110%);
+  transition: 1s;
+}
+
+.card-details-div{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-logo-fake{
+  position: absolute;
+  top: 0.5rem;
+  left: 42.5rem;
+}
+

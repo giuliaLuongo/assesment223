@@ -1,0 +1,74 @@
+<div *ngIf="openDet == false" class="d-flex justify-content-between flex-lg-wrap">
+  <div class="sub-card m-1"  *ngFor="let pop of popList">
+
+    <h4 class="sub-card-title sub-title my-0">{{pop.popName}}</h4>
+
+    <div>
+     <a (click)="openDetails(pop)" ><img class="pop-img" src="{{pop.img}}"></a>
+    </div>
+
+    <h5>Power Level: {{pop.levelPower | levelPower}}</h5>
+    <h5>Powers</h5>
+    <p class="sub-card-text sub-description-full my-0">{{pop.power1}}</p>
+    <p class="sub-card-text sub-description-full my-0">{{pop.power2}}</p>
+    <p class="sub-card-text sub-description-full my-0">{{pop.power3}}</p>
+    <p class="sub-card-text sub-description-full my-0">{{pop.power4}}</p>
+
+
+  </div>
+</div>
+
+<div class="card-details-div" *ngIf="openDet">
+  <div class="card-details">
+
+    <div class="w-50">
+      <a (click)="openDetails(pop)" ><img class="pop-img-details" src="{{pop.img}}"></a>
+    </div>
+
+    <div class="w-50 d-flex flex-column justify-content-between">
+
+      <div class="d-flex justify-content-evenly ">
+        <h1 class="pop-name-details">{{pop.popName}}</h1>
+        <div class="d-flex justify-content-center align-items-center">
+          <i [ngClass]="pop.prefered == true ? 'fa-star' : 'fa-star-o' " class="fa fa-5x"></i>
+        </div>
+      </div>
+      <br>
+
+      <div class="d-flex justify-content-center">
+        <h5 class="text-white">Power Level: {{pop.levelPower | levelPower}}</h5>
+      </div>
+      <br>
+
+      <div class="d-flex justify-content-evenly">
+        <div>
+          <h5 class="text-white">Powers:</h5>
+          <br>
+          <p class="text-white"> {{pop.power1 == "" ? "" : "- " + pop.power1}}</p>
+          <p class="text-white"> {{pop.power2 == "" ? "" : "- " + pop.power2}}</p>
+          <p class="text-white"> {{pop.power3 == "" ? "" : "- " + pop.power3}}</p>
+          <p class="text-white"> {{pop.power4 == "" ? "" : "- " + pop.power4}}</p>
+        </div>
+
+        <div>
+          <h5 class="text-white">Extra Ability:</h5>
+          <br>
+          <p class="text-white"> {{pop.extraAbility1 == null ? "" : "- " + pop.extraAbility1}}</p>
+          <p class="text-white"> {{pop.extraAbility2 == null ? "" : "- " + pop.extraAbility2}}</p>
+          <p class="text-white"> {{pop.extraAbility3 == null ? "" : "- " + pop.extraAbility3}}</p>
+          <p class="text-white"> {{pop.extraAbility4 == null ? "" : "- " + pop.extraAbility4}}</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="div-logo">
+      <a (click)="openDet = false" ><img  class="marvel-logo-details marvel-logo" src="assets/Marvel_Studios_logo.jpg"></a>
+    </div>
+
+    <div class="div-logo-fake">
+      <a (click)="openDet = false" ><img  class="marvel-logo" src="assets/Marvel_Studios_logo.jpg"></a>
+    </div>
+
+  </div>
+</div>

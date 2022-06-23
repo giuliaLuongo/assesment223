@@ -1,0 +1,28 @@
+<div class="table-div">
+  <table class="table bg-danger">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Power</th>
+      <th scope="col">Date</th>
+      <th scope="col">Power Level</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let pop of popList">
+      <th>{{pop.id}}</th>
+      <td>{{pop.popName}}</td>
+      <td>{{pop.power1}}</td>
+      <td>{{pop.date}}</td>
+      <td>{{pop.levelPower | levelPower}}</td>
+      <td><a (click)="addToPrefered(pop)" class="btn"><i [ngClass]="pop.prefered == true ? 'fa-star' : 'fa-star-o' "  class="fa"></i></a></td>
+      <td><i class="fa fa-eye btn"></i></td>
+      <td><i (click)="removePop(pop)" class="fa fa-trash btn"></i></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
