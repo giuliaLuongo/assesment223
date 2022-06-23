@@ -1,0 +1,39 @@
+<div class="d-flex flex-column justify-content-center text-center p-2 managePop">
+  <h1 class="text-danger text-center bg-dark mt-5 mx-5 rounded"><strong>Gestisci i tuoi POP</strong></h1>
+  <table class="table table-dark table-hover my-5  table-bordered  ">
+    <thead class="text-center">
+    <tr>
+      <th class="text-danger">ID</th>
+      <th class="text-danger">Nome</th>
+      <th class="text-danger">Abilita</th>
+      <th class="text-danger">Data di uscita</th>
+      <th class="text-danger">Potenza</th>
+      <th class="text-danger">Preferito</th>
+      <th class="text-danger">Azioni</th>
+    </tr>
+    </thead>
+    <tbody class="text-center">
+    <tr *ngFor="let pop of popList" class="text-center">
+      <td>{{pop.id}}</td>
+      <td>{{pop.nameHero}}</td>
+      <td>{{pop.ability}}</td>
+      <td>{{pop.releaseDate |  date: 'dd/MM/yyyy'}}</td>
+      <td>{{pop.power | powerPipe}}</td>
+      <td>
+        <button type="button" class="btn btn-warning" (click)="changeFavoutite(pop)">
+          <i [ngClass]="pop.favourite ? 'fa fa-star' : 'fa fa-star-o'" aria-hidden="true"></i>
+        </button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-danger" (click)="deletePop(pop.id)">
+          <i class="fa fa-trash" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="btn btn-info m-lg-1" routerLink="/info-pop/{{pop.id}}">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+

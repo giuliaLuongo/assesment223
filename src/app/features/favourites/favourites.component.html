@@ -1,0 +1,17 @@
+<h1 class="text-danger text-center bg-dark mt-5 mx-5 rounded p-2"><strong>POP Preferiti</strong></h1>
+
+<div class="d-flex align-content-lg-between flex-row flex-wrap justify-content-center">
+  <div *ngFor="let pop of popList" >
+    <app-card *ngIf="pop.favourite"
+              [id]="pop.id"
+              [nameHero]="pop.nameHero"
+              [ability]="pop.ability"
+              [releaseDate]="pop.releaseDate"
+              [power]="pop.power"
+              [img]="pop.img"
+    >
+    </app-card>
+  </div>
+</div>
+
+

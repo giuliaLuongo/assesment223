@@ -1,0 +1,19 @@
+.card {
+  margin: 2%;
+  width: 20rem;
+  img {
+    height: 20rem;
+  }
+  .infoContainer {
+    justify-content: space-evenly;
+    display: flex;
+    width: 20rem;
+    p {
+      display: inline-block;
+    }
+  }
+}
+
+app-card{
+  margin: 2%;
+}

@@ -1,0 +1,21 @@
+<h1 class="text-danger text-center bg-dark mt-5 mx-5 rounded p-2"><strong>Info POP</strong></h1>
+<div *ngIf="selectedPop" class="mx-5">
+  <div class="rounded-circle text-center">
+    <img class="rounded w-25 h-25" src="{{selectedPop.img}}">
+  </div>
+
+    <ul class="list-unstyled bg-dark text-decoration-none rounded mt-3 list-unstyled text-center" >
+      <li class="text-light  ">id: {{selectedPop.id}}</li>
+      <li class="text-light ">Nome: {{selectedPop.nameHero}}</li>
+      <li class="text-light ">Abilita: {{selectedPop.ability}}</li>
+      <li class="text-light ">Data di uscita: {{selectedPop.releaseDate}}</li>
+      <li class="text-light ">Livello di Potenza: {{selectedPop.power}}</li>
+
+      <li class="text-light " *ngIf="selectedPop.height">Altezza : {{selectedPop.height}}m</li>
+      <li class="text-light " *ngIf="selectedPop.weight">Peso : {{selectedPop.weight}}Kg</li>
+      <li class="text-light " *ngIf="selectedPop.education">Educazione : {{selectedPop.education}}</li>
+      <li class="text-light " *ngIf="selectedPop.affiliations">Affiliazioni : {{selectedPop.affiliations}}</li>
+    </ul>
+
+</div>
+
