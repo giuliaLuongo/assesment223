@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import "themes/coreStyles/headerStyles";
+@import "themes/sharedStyles/cardStyles";
+@import "themes/featuresStyles/gestionePopsStyles";
+@import "themes/featuresStyles/preferedList";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
