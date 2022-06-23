@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "/src/app/themes/coreStyle/headerStyle.scss";
+@import "/src/app/themes/coreStyle/footerStyle.scss";
+
+@import "/src/app/themes/featuresStyle/managementStyle.scss";
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+  font-family: Marvel;
+  src: url("/src/assets/fonts/MarvelRegular-Dj83.ttf") format("opentype");
+}

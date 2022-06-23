@@ -1,0 +1,95 @@
+.management{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.management-table{
+    border: solid 3px red;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.table-headers{
+    width: 100%;
+    height: 3rem;
+}
+
+.table-headers th{
+    text-align: center;
+    vertical-align: center;
+}
+
+.table-pop td{
+    text-align: center;
+}
+
+.headers-image{
+    border: solid 3px red;
+    width: 15%;
+}
+
+.headers-name{
+    border: solid 3px red;
+    width: 12%;
+}
+
+.headers-skill{
+    border: solid 3px red;
+    width: 22%;
+}
+
+.headers-exitDate{
+    border: solid 3px red;
+    width: 12%;
+}
+
+.headers-power{
+    border: solid 3px red;
+    width: 12%;
+}
+
+.headers-favourite{
+    border: solid 3px red;
+    width: 12%;
+}
+
+.headers-actions{
+    border: solid 3px red;
+    width: 15%;
+}
+
+.table-popImage, .table-popText{
+    border-bottom: solid 3px red;
+    border-right: solid 3px red;
+    height: 9rem;
+}
+
+.table-popFavourite button{
+    width: 4rem;
+    height: 4rem;
+}
+
+.table-popActions{
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 3px red;
+    height: 9rem;
+}
+
+.table-popImage img{
+    width: 6rem;
+    height: 8rem;
+}
+
+.table-popActions button{
+    width: 4rem;
+    height: 4rem;
+}
+
+.pop-detailButton{
+    margin-right: 1rem;
+}
+
+.pop-deleteButton{
+    margin-left: 1rem;
+}

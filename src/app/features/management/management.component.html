@@ -1,0 +1,41 @@
+<main class="management">
+    <!-- <div *ngFor="let pop of popList">
+        <p>{{pop.id}}</p>
+        <p>{{pop.name}}</p>
+        <p></p>
+    </div> -->
+    <table class="management-table">
+        <tr class="table-headers">
+            <th class="headers-image">Image</th>
+            <th class="headers-name">Name</th>
+            <th class="headers-skill">Skill</th>
+            <th class="headers-exitDate">Exit date</th>
+            <th class="headers-power">Power</th>
+            <th class="headers-favourite">Favourite</th>
+            <th class="headers-actions">Actions</th>
+        </tr>
+        <tr class="table-pop" *ngFor="let pop of popList">
+            <td class="table-popImage"><img src="{{pop.img}}" alt="Img pop"></td>
+            <td class="table-popText">{{pop.name}}</td>
+            <td class="table-popText">{{pop.skill}}</td>
+            <td class="table-popText">{{pop.exitDate}}</td>
+            <td class="table-popText">{{pop.power | power}}</td>
+            <td class="table-popFavourite table-popText">
+                <button class="table-favouriteButton" *ngIf="!pop.isFavourite" (click)="setFavouritePop(pop, pop.id)">
+                    <i class="bi bi-star"></i>
+                </button>
+                <button class="table-favouriteButton" *ngIf="pop.isFavourite" (click)="setUnfavouritePop(pop, pop.id)">
+                    <i class="bi bi-star-fill"></i>
+                </button>
+            </td>
+            <td class="table-popActions">
+                <a class="btn pop-detailButton" [routerLink]="['./details/', pop.id]">
+                    <i class="bi bi-eye-fill"></i>
+                </a>
+                <button class="pop-deleteButton" (click)="deletePop(pop.id)">
+                    <i class="bi bi-trash-fill"></i>
+                </button>
+            </td>
+        </tr>
+    </table>
+</main>

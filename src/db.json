@@ -1,0 +1,136 @@
+{
+  "pop": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "skill": "Powerful exoskeletal armor",
+      "exitDate": "1963",
+      "power": 15,
+      "isFavourite": false,
+      "img": "assets/PopIronMan.jpg",
+      "realName": "Tony Stark",
+      "isEnemy": false,
+      "multiverse": "AZH23S",
+      "mainColor": "red, yellow"
+    },
+    {
+      "id": 2,
+      "name": "Hulk",
+      "skill": "Super strenght",
+      "exitDate": "1962",
+      "power": 19,
+      "isFavourite": false,
+      "img": "assets/PopHulk.jpg",
+      "realName": "Robert Bruce Banner",
+      "isEnemy": false,
+      "multiverse": "AZH23S",
+      "mainColor": "green"
+    },
+    {
+      "id": 3,
+      "name": "Infinity Ultron",
+      "skill": "Offensive androids",
+      "exitDate": "1968",
+      "power": 24,
+      "isFavourite": false,
+      "img": "assets/PopInfinityUltron.jpg",
+      "realName": "Ultron",
+      "isEnemy": true,
+      "multiverse": "BYP42U",
+      "mainColor": "grey, red"
+    },
+    {
+      "id": 4,
+      "name": "Scarlet Witch",
+      "skill": "Magic",
+      "exitDate": "1964",
+      "power": 28,
+      "isFavourite": false,
+      "img": "assets/PopScarlettWitch.jpg",
+      "realName": "Wanda Maximoff",
+      "isEnemy": true,
+      "multiverse": "CurSeD",
+      "mainColor": "darkred"
+    },
+    {
+      "id": 5,
+      "name": "Captain America",
+      "skill": "Strength, speed, endurance",
+      "exitDate": "1941",
+      "power": 30,
+      "isFavourite": false,
+      "img": "assets/PopCaptainAmerica.jpg",
+      "realName": "Steven Grant 'Steve' Rogers",
+      "isEnemy": false,
+      "multiverse": "AZH23S",
+      "mainColor": "blue, red, white"
+    },
+    {
+      "id": 6,
+      "name": "Vision",
+      "skill": "Syntezoid android capable of altering its body mass and solidity at will",
+      "exitDate": "1968",
+      "power": 28,
+      "isFavourite": false,
+      "img": "assets/PopVision.jpg",
+      "realName": "Victor Shade",
+      "isEnemy": false,
+      "multiverse": "PEY53Q",
+      "mainColor": "red, yellow"
+    },
+    {
+      "id": 7,
+      "name": "KawkEye",
+      "skill": "physical abilities at the top of the human condition and extraordinary agility",
+      "exitDate": "1964",
+      "power": 9,
+      "isFavourite": false,
+      "img": "assets/PopHawkEye.jpg",
+      "realName": "Clinton Francis 'Clint' Barton",
+      "isEnemy": false,
+      "multiverse": "AZH23S",
+      "mainColor": "black"
+    },
+    {
+      "id": 8,
+      "name": "AntMan",
+      "skill": "Shrinking, magnification up to 30 meters, communication with ants",
+      "exitDate": "1962",
+      "power": 12,
+      "isFavourite": false,
+      "img": "assets/PopAntMan.jpg",
+      "realName": "Scott Lang",
+      "isEnemy": false,
+      "multiverse": "AZH23S",
+      "mainColor": "red, grey"
+    },
+    {
+      "id": 9,
+      "name": "Loki",
+      "skill": "God of deception",
+      "exitDate": "1962",
+      "power": 27,
+      "isFavourite": false,
+      "img": "assets/PopLoki.jpg",
+      "realName": "Loki Laufeyson",
+      "isEnemy": true,
+      "multiverse": "YEW80U",
+      "mainColor": "green, gold"
+    },
+    {
+      "id": 10,
+      "name": "Venom",
+      "skill": "alien symbiota",
+      "exitDate": "1988",
+      "power": 17,
+      "isFavourite": false,
+      "img": "assets/PopVenom.jpg",
+      "realName": "Peter Benjamin Parker",
+      "isEnemy": true,
+      "multiverse": "IOF53Y",
+      "mainColor": "black"
+    }
+  ],
+  "favouritesPop": [
+  ]
+}
