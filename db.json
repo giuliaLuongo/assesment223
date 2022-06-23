@@ -1,0 +1,112 @@
+{
+  "Pop": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "popImage": "assets/img/ironmanpop.png",
+      "ability": "superhuman strength and durability, flight, and an array of weapons",
+      "releaseDate": "24/11/1992",
+      "power": 18,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 2,
+      "name": "Thor",
+      "popImage": "assets/img/thor.png",
+      "ability": "Superhuman strength, flight, ability to control thunder, speed, endurance & resistance to injury",
+      "releaseDate": "12/06/1995",
+      "power": 23,
+      "status": true,
+      "isShow": false
+    },
+    {
+      "id": 3,
+      "name": "Doctor Strange",
+      "popImage": "assets/img/doctorStrange.png",
+      "ability": "A Master of the Mystic Arts, Doctor Strange has phenomenally powerful magical abilities that enable him to skillfully conjure myriad spells",
+      "releaseDate": "02/09/1995",
+      "power": 25,
+      "status": true,
+      "isShow": false
+    },
+    {
+      "id": 4,
+      "name": "SpiderMan",
+      "popImage": "assets/img/spiderman.png",
+      "ability": "superhuman strength, speed, agility and balance, and a precognitive sixth sense referred to as his \"Spider-Sense\"",
+      "releaseDate": "12/09/1999",
+      "power": 17,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 5,
+      "name": "Groot",
+      "popImage": "assets/img/Groot.png",
+      "ability": "He can control all plant life via psychokinesis, absorbing it into his body and making himself stronger",
+      "releaseDate": "01/01/2000",
+      "power": 8,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 6,
+      "name": "Captain america",
+      "popImage": "assets/img/captainAmerica.png",
+      "ability": "agility, strength, speed, endurance, and reaction time",
+      "releaseDate": "09/08/1999",
+      "power": 17,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 7,
+      "name": "Hulk",
+      "popImage": "assets/img/hulk.png",
+      "ability": " Incredible superhuman strength, durability, and healing factor",
+      "releaseDate": "05/11/1998",
+      "power": 20,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 8,
+      "name": "Loki",
+      "popImage": "assets/img/loki.png",
+      "ability": "astral projection, shape-shifting, hypnosis, molecular rearrangement, energy blasts, levitating, conjuration, cryokinesis, telekinesis and teleportation",
+      "releaseDate": "12/09/1995",
+      "power": 22,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 9,
+      "name": "Scarlet witch",
+      "popImage": "assets/img/scarletWitch.png",
+      "ability": "Psychic Energy Manipulation, Telekinesis, Force-Field Generation, Disintegration, Mental Manipulation, Emotion Manipulation, Telepathy, Levitation",
+      "releaseDate": "15/05/1995",
+      "power": 24,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    },
+    {
+      "id": 10,
+      "name": "Deadpool",
+      "popImage": "assets/img/deadpool.png",
+      "ability": "accelerated healing factor that lets him survive almost any physical injury, strenght, agility, speed",
+      "releaseDate": "12/07/2001",
+      "power": 20,
+      "status": false,
+      "isShow": false,
+      "details": "Details: Rare, vintage, limited edition, made of steel"
+    }
+  ]
+}

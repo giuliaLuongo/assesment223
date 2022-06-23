@@ -1,0 +1,11 @@
+<div class="card" (mouseover)="isShow = true" (mouseleave)="isShow=false">
+  <img  [hidden] = "isShow"src="{{img}}">
+  <div class="info-container">
+    <br [hidden] = "!isShow">
+    <p class="cardContent" [hidden] = "!isShow">Id: {{id}}</p>
+    <p class="cardContent" [hidden] = "!isShow">Name: {{name}}</p>
+    <p class="cardContent" [hidden] = "!isShow">Ability: {{ability}}</p>
+    <p class="cardContent"  [hidden] = "!isShow">Release Date: {{releaseDate}}</p>
+    <p class="cardContent"  [hidden] = "!isShow">Power: {{power}}</p>
+ </div>
+</div>

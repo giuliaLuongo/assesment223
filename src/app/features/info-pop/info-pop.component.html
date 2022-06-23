@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-center">
+  <div class=" w-50">
+    <ul class="rest-list p-5">
+      <li class="rest-item">
+        <img src="{{pop.popImage}}">
+        <p class="text-light">Pop Id: {{pop.id}}</p>
+        <p class="text-light">Name: {{pop.name}}</p>
+        <p class="text-light">Ability: {{pop.ability}}</p>
+        <p class="text-light">Release Date: {{pop.releaseDate}}</p>
+        <p class="text-light">Power: {{pop.power | powerPipe}}</p>
+        <p class="text-light">{{pop?.details}}</p>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<h2 class="text-center text-light mt-3">Pops</h2>
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col"></th>
+    <th scope="col"></th>
+    <th scope="col" class="text-light text-center">Id</th>
+    <th scope="col" class="text-light text-center">Name</th>
+    <th scope="col" class="text-light text-center">Ability</th>
+    <th scope="col" class="text-light text-center">Release Date</th>
+    <th scope="col" class="text-light text-center">Power</th>
+    <th scope="col"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let pop of popList">
+    <th class="text-light" scope="row">{{count}}</th>
+    <td><img class="h-25" src="{{pop.popImage}}"></td>
+    <td class="text-light align-middle">{{pop.id}}</td>
+    <td class="text-light align-middle">{{pop.name}}</td>
+    <td class="text-light align-middle">{{pop.ability}}</td>
+    <td class="text-light align-middle">{{pop.releaseDate}}</td>
+    <td class="text-light align-middle">{{pop.power | powerPipe}}</td>
+    <td class="align-middle justify-content-evenly"><i class="fa" (click)="addFav(pop)"
+           [ngClass]="pop.status ? 'fa fa-star text-warning btn' : 'fa fa-star-o text-warning btn'"></i>
+      <i class="fa fa-trash text-danger btn" (click)="deletePop(pop.id)"></i>
+      <button routerLink="/info/{{pop.id}}" class="fa fa-eye text-info"></button></td>
+  </tr>
+  </tbody>
+</table>

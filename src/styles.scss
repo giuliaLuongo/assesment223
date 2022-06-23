@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "font-awesome";
+@import "theme/homeStyle/homeStyle";
+@import "theme/headerStyle/headerStyle";
+@import "theme/popCardStyle/popCardStyle";
+@import "theme/fontStyle/fontStyle";
+@import "theme/favouriteStyle/favouriteStyle";
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: rgb(98,98,98);
+  background: linear-gradient(0deg, rgba(98,98,98,1) 0%, rgba(38,38,38,1) 100%);
+  }
+
+main{
+  min-height: calc(80vh - 70px);
+}

@@ -1,0 +1,12 @@
+
+<div class="cards">
+  <div *ngFor="let pop of favouriteList">
+    <app-pop-card *ngIf="pop.status"
+                  [id]="pop.id"
+                  [name]="pop.name"
+                  [ability]="pop.ability"
+                  [img]="pop.popImage"
+                  [releaseDate]="pop.releaseDate"
+                  [power]="pop.power | powerPipe"></app-pop-card>
+  </div>
+</div>
