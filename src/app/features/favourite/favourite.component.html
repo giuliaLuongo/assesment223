@@ -1,0 +1,13 @@
+<div class="card-container" *ngIf="favouriteList.length != 0 ">
+  <app-card *ngFor="let fav of favouriteList"
+            [name]="fav.name"
+            [powerScore]="fav.powerScore"
+            [ability]="fav.ability"
+            [releaseDate]="fav.releaseDate"
+            [src]="fav.img"
+  ></app-card>
+</div>
+
+<div *ngIf="favouriteList.length == 0" class="altText">
+  <p class="text-center align-content-md-center" >Make Sure to Add Favourites before checking this page!</p>
+</div>

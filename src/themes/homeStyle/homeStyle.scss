@@ -1,0 +1,10 @@
+.background{
+  z-index: -999;
+  position: center;
+  height: fit-content;
+  width:auto;
+  filter: brightness(30%);
+  img{
+    width: 100%;
+  }
+}

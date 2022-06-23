@@ -1,0 +1,15 @@
+.logo{
+  height: 110px;
+}
+.navbar-collapse{
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+app-footer{
+  margin-top: auto;
+  width: 100%;
+  .footerSection{
+    height: 35px;
+  }
+}

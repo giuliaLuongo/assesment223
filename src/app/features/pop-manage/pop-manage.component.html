@@ -1,0 +1,23 @@
+<table class="table table-hover table-dark">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Power</th>
+    <th scope="col">Ability</th>
+    <th scope="col">Release Date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let pop of popList;">
+    <th scope="row">{{pop.id}}</th>
+    <td colspan="1">{{pop.name}}</td>
+    <td colspan="1">{{pop.powerScore | powerpipe}}</td>
+    <td colspan="1">{{pop.ability}}</td>
+    <td colspan="1">{{pop.releaseDate}}</td>
+    <button class="manage-button" (click)="addToFavourites(pop)" [ngClass]="pop.isFavourite?'bi bi-star-fill text-warning':'bi bi-star-fill text-grey'"></button>
+    <button  routerLink="/info/{{pop.id}}" class="bi bi-eye-fill text-info manage-button"></button>
+    <button (click)="removePop(pop)" class="bi bi-trash-fill text-danger manage-button"></button> <!--removePop(pop)-->
+  </tr>
+  </tbody>
+</table>

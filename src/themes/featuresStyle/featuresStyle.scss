@@ -1,0 +1,19 @@
+.altText{
+  height: 43%;
+  margin-top: 10rem;
+}
+.card-container{
+  min-height: 65vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-img{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

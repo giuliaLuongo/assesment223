@@ -1,0 +1,129 @@
+{
+  "pops": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "powerScore": 9,
+      "ability": "Hyper Suit",
+      "releaseDate": "03-1963",
+      "isFavourite": false,
+      "price": "200",
+      "rarity": "Hyper Rare",
+      "totalAppearances": "123456789",
+      "isAnAvenger": true,
+      "img": "assets/ironman.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Strange",
+      "powerScore": 14,
+      "ability": "Good Magic",
+      "releaseDate": "07-1963",
+      "isFavourite": false,
+      "price": "30",
+      "rarity": "Magic Rare",
+      "totalAppearances": "∞",
+      "img": "assets/drStrange.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Groot",
+      "powerScore": 30,
+      "ability": "Tree",
+      "releaseDate": "11-1960",
+      "isFavourite": false,
+      "price": "400",
+      "rarity": "Tree Rare",
+      "totalAppearances": "I am Groot",
+      "img": "assets/groot.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Spider-man",
+      "powerScore": 8,
+      "ability": "Spider abilities",
+      "releaseDate": "08-1962",
+      "isFavourite": false,
+      "price": "50",
+      "rarity": "Spider Rare",
+      "totalAppearances": "132523",
+      "isAnAvenger": true,
+      "img": "assets/spiderman.jpg"
+    },
+    {
+      "id": 5,
+      "name": "America",
+      "powerScore": 11,
+      "ability": "Dimension shifting punches",
+      "releaseDate": "09-2011",
+      "isFavourite": false,
+      "price": "80",
+      "rarity": "Quantum Rare",
+      "totalAppearances": "∞",
+      "img": "assets/america.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Thor",
+      "powerScore": 20,
+      "ability": "Mjolnir, Thunder",
+      "releaseDate": "08-1962",
+      "isFavourite": false,
+      "price": "100",
+      "rarity": "Asgard Rare",
+      "totalAppearances": "748218",
+      "isAnAvenger": true,
+      "img": "assets/thor.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Deadpool",
+      "powerScore": 15,
+      "ability": "Hyper Regenaration",
+      "releaseDate": "02-1991",
+      "isFavourite": false,
+      "price": "70",
+      "rarity": "Immortal Rare",
+      "totalAppearances": "At least 5",
+      "img": "assets/deadpool.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hulk",
+      "powerScore": 6,
+      "ability": "Smash",
+      "releaseDate": "05-1962",
+      "isFavourite": false,
+      "price": "40",
+      "rarity": "Green Rare",
+      "totalAppearances": "64523",
+      "isAnAvenger": true,
+      "img": "assets/hulk.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Scarlet Witch",
+      "powerScore": 40,
+      "ability": "Evil Magic",
+      "releaseDate": "03-1964",
+      "isFavourite": false,
+      "price": "30",
+      "rarity": "Magic Rare",
+      "totalAppearances": "∞",
+      "img": "assets/scarletWitch.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Rocket",
+      "powerScore": 3,
+      "ability": "Gunmanship",
+      "releaseDate": "08-1976",
+      "isFavourite": false,
+      "price": "70",
+      "rarity": "Racoon Rare",
+      "totalAppearances": "123467325",
+      "img": "assets/rocket.jpg"
+    }
+  ],
+  "favourites": []
+}

@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-img">
+    <img src="{{src}}" width="320" height="380" alt="{{name}} pop">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{name}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{powerScore | powerpipe}}</h6>
+    <p class="card-text">Ability : {{ability}}</p>
+    <p class="card-text">Release Date : {{releaseDate}}</p>
+    <p *ngIf="price!= null || price != undefined" class="card-text">Price: {{price |currency:"EUR"}}</p>
+    <p *ngIf="rarity!= null || rarity != undefined" class="card-text">Rarity : {{rarity}}</p>
+    <p *ngIf="totalAppearances!= null || totalAppearances != undefined" class="card-text">Total Appearances: {{totalAppearances}}</p>
+    <img *ngIf="isAnAvenger" height="50" width="50" src="assets/Symbol_from_Marvel's_The_Avengers_logo.svg.png">
+  </div>
+</div>
