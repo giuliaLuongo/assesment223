@@ -1,0 +1,95 @@
+{
+  "pop": [
+    {
+      "id": 1,
+      "prefered": false,
+      "img": "assets/img/8126579-amazing_spider-man_vol_5_54_stormbreakers_variant_textless.jpeg",
+      "heroName": "Spider-Man",
+      "skills": "Spider-Sense",
+      "releaseDate": "2007-5-11",
+      "power": 39
+    },
+    {
+      "id": 2,
+      "prefered": false,
+      "img": "assets/img/8251811-thor_vol_6_19_asrar_variant_textless.jpeg",
+      "heroName": "Thor",
+      "skills": "Power",
+      "releaseDate": "2015-5-20",
+      "power": 15
+    },
+    {
+      "id": 3,
+      "prefered": false,
+      "img": "assets/img/7469590-wolverinerb.jpeg",
+      "heroName": "Wolverine",
+      "skills": "Claws",
+      "releaseDate": "2015-5-25",
+      "power": 20
+    },
+    {
+      "id": 4,
+      "prefered": false,
+      "img": "assets/img/6386545-deadpool_assassin_vol_1_2_textless.jpeg",
+      "heroName": "Dead-Pool",
+      "skills": "Fight",
+      "releaseDate": "2013-5-12",
+      "power": 30
+    },
+    {
+      "id": 5,
+      "prefered": false,
+      "img": "assets/img/7768211-4293283244-2Pac8Gpu6dUAUMI0UpVJeqk9rayKSiaTjreIK0H-ChAWsoNV-RxTnTEt4a7tCNryrbLjFPndaoNki-tJJI1Q-_mi8fue_juP4cBRHx0Er1w5EfjNoWwadqewG3JSwaliSSsHnNEN=s1600.jpeg",
+      "heroName": "Iron-Man",
+      "skills": "Flight",
+      "releaseDate": "2021-5-1",
+      "power": 2
+    },
+    {
+      "id": 6,
+      "prefered": false,
+      "img": "assets/img/7892286-immortal_hulk_vol_1_38_.jpeg",
+      "heroName": "Hulk",
+      "skills": "Power",
+      "releaseDate": "2015-5-11",
+      "power": 17
+    },
+    {
+      "id": 7,
+      "prefered": false,
+      "img": "assets/img/7397359-0398898002-EQH1ysWWsAA7QLf.jpeg",
+      "heroName": "Daredevil",
+      "skills": "Superhuman agility",
+      "releaseDate": "2012-10-19",
+      "power": 14
+    },
+    {
+      "id": 8,
+      "prefered": false,
+      "img": "assets/img/6465266-punisher_vol_12_1_textless.jpeg",
+      "heroName": "Punisher",
+      "skills": "Energy",
+      "releaseDate": "2021-10-29",
+      "power": 4
+    },
+    {
+      "id": 9,
+      "prefered": false,
+      "img": "assets/img/8459983-rco031_1650495781.jpeg",
+      "heroName": "Captain America",
+      "skills": "Stamina",
+      "releaseDate": "2010-10-30",
+      "power": 11
+    },
+    {
+      "id": 10,
+      "prefered": false,
+      "img": "assets/img/7740086-rco001_1609391996.jpeg",
+      "heroName": "Cyclops",
+      "skills": "Beams from his eyes",
+      "releaseDate": "2015-5-16",
+      "power": 11
+    }
+  ],
+  "prefered": []
+}
